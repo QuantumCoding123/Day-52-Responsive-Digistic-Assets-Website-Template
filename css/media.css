@@ -1,0 +1,1370 @@
+@media (min-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1200px
+    }
+}
+
+@media (min-width: 992px) {
+    .banner-section .btn-container .btn {
+        max-width: 350px;
+        font-size: 1.8em;
+        min-height: 106px;
+        font-weight: 600;
+    }
+
+    .why-list {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 1600px) {
+    body {
+        font-size: 22px;
+    }
+
+    .team-member-list:before {
+        bottom: 129px;
+    }
+}
+
+@media (max-width: 1490px) {
+    .auction-carousel .owl-item .auction-item {
+        width: 25vw
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    body {
+        font-size: 22px
+    }
+
+    .btn-sm {
+        font-size: .5em
+    }
+
+    .banner-section::before {
+        top: -15%
+    }
+
+    .banner-images:before {
+        width: 100vw
+    }
+
+    .recent-section {
+        background-size: contain
+    }
+
+    .recent-carousel {
+        margin-top: -55px
+    }
+
+    .recent-section h2,
+    .recent-section p {
+        top: -65px
+    }
+
+    .recent-card-footer-left h4 {
+        font-size: .8em
+    }
+
+    .recent-card .recent-card-likes {
+        font-size: .8em
+    }
+
+    .feature-img img {
+        width: 100%
+    }
+
+    .feature-floating-img-1 {
+        top: 245px;
+        left: 13px
+    }
+
+    .feature-floating-img-2 {
+        top: 80px;
+        left: 55px
+    }
+
+    .feature-floating-img-4 {
+        top: -57px;
+        left: 250px
+    }
+
+    .roadmap-list>li::before {
+        left: -157px;
+        width: 315px
+    }
+
+    .roadmap-list>li:nth-child(even):before {
+        right: -157px
+    }
+
+    .roadmap-number {
+        text-align: left;
+        min-width: 150px
+    }
+
+    .roadmap .roadmap-1::after {
+        display: none
+    }
+
+    .roadmap .roadmap-4::after {
+        left: 700px
+    }
+
+    .roadmap::before {
+        left: 490px
+    }
+
+    .faq-section::after {
+        left: 400px
+    }
+
+    .roadmap-list li:last-child .roadmap-number:after {
+        right: 155px
+    }
+
+    .auction-carousel .owl-item .auction-item {
+        width: 30vw
+    }
+
+    .footer-cont,
+    .footer-bottom {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .page-banner {
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+
+    .about-nft-img .girl-img img {
+        left: 28%;
+    }
+
+    .about-nft-img .ballon-img img {
+        left: 53%
+    }
+
+    .about-nft-img .hand-img img {
+        right: 3%;
+    }
+
+    .blogs .blog-img img {
+        border-radius: 20px;
+        width: -webkit-fill-available;
+    }
+
+
+
+    .right-sec {
+        border-radius: 20px;
+    }
+
+    .page-banner {
+        padding-top: 50px;
+        padding-bottom: 45px;
+    }
+
+    .blog-section {
+        margin-top: 100px;
+    }
+
+    .post-list {
+        gap: 10px;
+    }
+
+    .post-list .post-img img {
+        width: 100%;
+
+    }
+
+
+
+    .post-content .commentor-name {
+        font-size: 0.7em;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    body {
+        font-size: 19px
+    }
+
+    header {
+        min-height: 90px
+    }
+
+    .nav-menu {
+        display: none
+    }
+
+    .nav-menu .nav-link,
+    .nav-menu .nav-social ul li a {
+        font-size: 10vw
+    }
+
+    header {
+        background-color: transparent
+    }
+
+    .nav-menu-button {
+        display: flex
+    }
+
+    .mobile-menu-open {
+        overflow: hidden
+    }
+
+    .section-subtitle br {
+        display: none
+    }
+
+    .blog-section .section-subtitle br {
+        display: block;
+    }
+
+    .mobile-menu-open .logo {
+        position: relative;
+        z-index: 1
+    }
+
+    .mobile-menu-open .nav-menu {
+        background-color: #191f2e;
+        display: flex;
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        padding-top: 90px;
+        flex-direction: column;
+        justify-content: flex-start;
+        overflow: auto;
+    }
+
+    .mobile-menu-open .nav-menu .nav-links {
+        display: grid;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        text-align: center
+    }
+
+    .mobile-menu-open .nav-menu .nav-links li {
+        margin-left: 0
+    }
+
+    header a.nav-link:hover:before,
+    header a.nav-link.active:before {
+        display: none
+    }
+
+    header a.nav-link.active {
+        color: #fa6465
+    }
+
+    .mobile-menu-open .nav-menu .nav-social {
+        margin-top: 30px
+    }
+
+    .mobile-menu-open .nav-menu .nav-social ul {
+        margin-left: 0;
+        justify-content: center
+    }
+
+    .banner-section {
+        padding-top: 175px
+    }
+
+    .recent-section h2,
+    .recent-section p {
+        top: -15px
+    }
+
+    .item-one {
+        padding-top: 40%;
+        width: 34vw
+    }
+
+    .item-two {
+        padding-top: 20%;
+        width: 32vw
+    }
+
+    .item-three {
+        padding-top: 0;
+        width: 26vw
+    }
+
+    .item-four {
+        padding-top: 30%;
+        width: 40vw
+    }
+
+    .why-digistic .why-card {
+        padding-left: 25px
+    }
+
+    .why-digistic .why-card img {
+        margin-bottom: 15px
+    }
+
+    .why-digistic .why-card h3 {
+        font-size: 1.8em
+    }
+
+    .why-digistic .why-card h6 {
+        font-size: .6em;
+        margin-bottom: 6px
+    }
+
+    .why-digistic .why-card p {
+        font-size: .5em
+    }
+
+    .why-list {
+        gap: 50px
+    }
+
+    .feature-img img {
+        width: 100%
+    }
+
+    .features ul {
+        padding-left: 0;
+        margin-top: 30px
+    }
+
+    .features ul+button {
+        margin-left: 40px
+    }
+
+    .feature-floating-img-1 {
+        height: 35px;
+        top: 180px
+    }
+
+    .feature-floating-img-2 {
+        height: 30px;
+        left: 35px;
+        top: 35px
+    }
+
+    .feature-floating-img-3 {
+        height: 55px
+    }
+
+    .investors-partners .investors-grid {
+        margin-top: 0
+    }
+
+    .investors-partners .investors-grid .grid-item {
+        width: 120px
+    }
+
+    .investors-partners .investors-grid .grid-item img {
+        width: 100%
+    }
+
+    .roadmap-list {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0
+    }
+
+    .roadmap {
+        padding-bottom: 0;
+        padding-top: 120px
+    }
+
+    .roadmap-list li:last-child .roadmap-number:after {
+        display: none
+    }
+
+    .roadmap-list>li {
+        margin-left: 0;
+        display: inline-block;
+        padding: 40px 0 0 40px
+    }
+
+    .roadmap-list>li:nth-child(even) {
+        padding: 40px 0 0 40px;
+        flex-flow: row
+    }
+
+    .roadmap-number {
+        padding: 0;
+        height: auto;
+        font-size: 2em;
+        justify-content: flex-start
+    }
+
+    .roadmap::before {
+        display: none
+    }
+
+    .roadmap-list:before {
+        display: none
+    }
+
+    .roadmap-list>li:after {
+        width: 32px;
+        background-size: auto;
+        background-image: url(../images/curve-img-mobile.png);
+        height: 91px;
+        background-position: center;
+        transform: none;
+        top: 20px;
+        left: -5px
+    }
+
+    .roadmap-list>li:nth-child(even):after {
+        left: 0;
+        right: auto
+    }
+
+    .roadmap-list>li:nth-child(even) .roadmap-content {
+        padding-right: 0;
+        padding-left: 0;
+        text-align: left
+    }
+
+    .roadmap-list>li:nth-child(even) .roadmap-content .roadmap-images {
+        flex-direction: row
+    }
+
+    .auction-section .btn-container {
+        justify-content: flex-start;
+        margin-top: 20px
+    }
+
+    .auction-carousel .owl-item .auction-item {
+        width: 40vw
+    }
+
+    .roadmap-list li:nth-child(even) ul li {
+        flex-direction: row
+    }
+
+    .roadmap-list>li .roadmap-content {
+        padding: 0;
+        width: 100%;
+        text-align: left
+    }
+
+    .roadmap-list>li::before {
+        display: none
+    }
+
+    .roadmap .roadmap-1::after {
+        top: -260px;
+        right: -210px
+    }
+
+    .roadmap .roadmap-3::after {
+        display: none
+    }
+
+    .roadmap .roadmap-4::after {
+        left: 260px
+    }
+
+    .creators-grid {
+        grid-template-columns: 1fr 1fr
+    }
+
+    .auction-section {
+        margin-top: 100px
+    }
+
+    .team-member-list {
+        column-gap: 25px
+    }
+
+    .team-member img {
+        height: 300px
+    }
+
+    .team-member-list:before {
+        bottom: 118px
+    }
+
+    .faq-section::before {
+        top: 470px;
+        left: 90px
+    }
+
+    .faq-section::after {
+        top: 60px;
+        right: 136px
+    }
+
+    .faq-float-img-1 {
+        left: -10%
+    }
+
+    .faq-float-img-2 {
+        left: 0
+    }
+
+    .faq-float-img-3 {
+        left: 0;
+        top: 80%;
+    }
+
+    .faq-div,
+    .faq-accordian {
+        margin: 0
+    }
+
+    .page-banner {
+        margin-top: 120px;
+    }
+
+    .about-nft {
+        margin-top: 120px;
+        min-height: 650px;
+    }
+
+    .about-nft-img .hand-img img {
+        right: 15%;
+        top: 102%;
+    }
+
+    .about-nft-img .ballon-img img {
+        top: 100%;
+        left: 21%;
+    }
+
+    .about-nft-img .girl-img img {
+        left: -10%;
+        top: 120%;
+
+    }
+
+    .why-digistic {
+        padding-top: 0;
+    }
+
+    .contact-section {
+        padding: 90px 0;
+    }
+
+    .contact-info-list {
+        margin-top: 120px;
+    }
+
+    .contact-info-list>div:last-child {
+        margin-bottom: 0;
+    }
+
+    /*blog-section*/
+    .blog-heading h2 {
+        line-height: 60px;
+    }
+
+    .post-list {
+        gap: 30px;
+        align-items: center;
+        font-size: 1.2em;
+    }
+
+    .dropdown-menu.show {
+        top: 105%;
+        left: 50%;
+        position: relative !important;
+        margin-top: 12px !important;
+        transform: none !important;
+    }
+
+    .dropdown-item {
+        font-size: 8vw;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 18px
+    }
+
+    .container {
+        padding-left: 24px;
+        padding-right: 24px
+    }
+
+    .section-title {
+        text-align: center;
+        font-size: 2.7em
+    }
+
+    .section-subtitle {
+        text-align: center
+    }
+
+    .btn-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px
+    }
+
+    .btn {
+        min-height: 60px;
+        font-size: 1.5em;
+        max-width: 240px
+    }
+
+    .btn-sm {
+        min-height: 48px;
+        max-width: 81px;
+        font-size: .8em
+    }
+
+    .modal.show .modal-dialog {
+        margin: 1em;
+
+
+    }
+
+
+    .modal-header {
+        padding: 40px 40px 0;
+    }
+
+    .modal-body {
+        padding: 0 40px 40px;
+    }
+
+    .modal .form-container .btn {
+        margin-top: 30px;
+    }
+
+    .modal .input-container {
+        margin-bottom: 24px;
+    }
+
+    .another-way {
+        margin-top: 30px;
+        margin-bottom: 24px;
+    }
+
+
+    .wallet-box {
+        padding: 18px 18px 9px;
+        gap: 9px;
+    }
+
+    header.header-sm {
+        min-height: 75px
+    }
+
+    .banner-images:before {
+        border-radius: 50% 50% 0 0;
+        top: 5%
+    }
+
+    .banner-images {
+        height: 75vw;
+        margin-top: 80px
+    }
+
+    .banner-section {
+        padding-top: 100px
+    }
+
+    .banner-section:before,
+    .banner-section:after {
+        width: 160vw;
+        height: 160vw
+    }
+
+    .banner-section:before {
+        top: -10%;
+        left: -110%
+    }
+
+    .banner-section:after {
+        top: 20%;
+        left: 50%
+    }
+
+    .banner-section h1 {
+        font-size: 3em;
+        margin-bottom: 10px
+    }
+
+    .banner-section p {
+        margin: 0;
+        font-size: 1.2em;
+        margin-bottom: 20px;
+        padding-top: 0
+    }
+
+    .adding-creators {
+        display: none
+    }
+
+    .floating-img-1 {
+        left: -70%;
+        width: 500px
+    }
+
+    .floating-img-2 {
+        width: 17vw;
+        top: 17%
+    }
+
+    .floating-img-3 {
+        width: 30vw;
+        right: 5%;
+        top: 20%
+    }
+
+    .floating-img-4 {
+        width: 22vw
+    }
+
+    .recent-section h2,
+    .recent-section p {
+        top: 0;
+        text-align: left;
+        margin-bottom: 0;
+        padding-top: 10px
+    }
+
+    .recent-section {
+        background-size: contain;
+        padding-top: 20px
+    }
+
+    .recent-section .owl-nav {
+        display: none
+    }
+
+    .recent-carousel {
+        margin-top: 40px
+    }
+
+    .recent-carousel.owl-carousel .owl-stage {
+        display: flex;
+        align-items: center
+    }
+
+    .recent-carousel .item {
+        padding: 0;
+        width: 70vw;
+        height: 100%
+    }
+
+    .recent-card {
+        border-radius: 50px
+    }
+
+    .recent-card .recent-card-likes,
+    .card-likes-badge {
+        font-size: 1em
+    }
+
+    .why-digistic h2,
+    .why-digistic p {
+        text-align: left
+    }
+
+    .why-digistic p {
+        margin-bottom: 30px
+    }
+
+    .why-digistic .container {
+        padding: 0
+    }
+
+    .why-digistic .section-title,
+    .why-digistic .section-subtitle {
+        padding-left: 24px
+    }
+
+    .why-list {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 20px;
+        gap: 0
+    }
+
+    .why-list>li {
+        width: 50%;
+        margin-bottom: 30px
+    }
+
+    .why-list>li:nth-child(even) {
+        padding-top: 0
+    }
+
+    .why-list>li .why-card {
+        padding: 0 25px;
+        margin-left: 2px
+    }
+
+    .why-digistic .why-card h3 {
+        margin-bottom: 0
+    }
+
+    .why-digistic .why-card h6 {
+        font-size: 1.25em
+    }
+
+    .why-digistic .why-card p {
+        font-size: .8em
+    }
+
+    .features {
+        margin-top: 70px
+    }
+
+    .feature-img img {
+        width: 100%
+    }
+
+    .features ul {
+        padding: 0;
+        margin-top: 20px
+    }
+
+    .features ul li i {
+        margin-right: 15px
+    }
+
+    .features ul+button {
+        margin: 30px auto 0
+    }
+
+    .feature-floating-img-1 {
+        top: 120px;
+        left: 1px
+    }
+
+    .feature-floating-img-2 {
+        top: -12px;
+        left: 300px
+    }
+
+    .feature-floating-img-3 {
+        position: absolute;
+        top: -85px;
+        left: -21px
+    }
+
+    .feature-floating-img-4 {
+        position: absolute;
+        top: -26px;
+        left: 89px
+    }
+
+    .awesome-creators,
+    .investors-partners,
+    .features,
+    .faq-section,
+    .why-digistic,
+    .banner-section {
+        display: block
+    }
+
+    .investors-partners {
+        padding-bottom: 0;
+        padding-top: 60px
+    }
+
+    .investors-partners h2,
+    .investors-partners p {
+        text-align: left;
+        padding: 0 24px
+    }
+
+    .investors-partners .investors-grid {
+        display: block;
+        padding: 0 24px;
+        margin-top: 0
+    }
+
+    .investors-floating-bg {
+        display: none;
+    }
+
+    .investors-partners .investors-grid .grid-item {
+        width: 90px
+    }
+
+    .investors-partners::before {
+        display: none
+    }
+
+    .investors-partners p {
+        margin-bottom: 20px
+    }
+
+    .join-community {
+        display: block;
+        padding-top: 60px
+    }
+
+    .why-digistic {
+        margin-top: 50px
+    }
+
+    .roadmap {
+        padding-top: 70px
+    }
+
+    .join-community-cont {
+        padding: 35px 30px 45px
+    }
+
+    .join-community h2 {
+        font-size: 50px;
+        line-height: 50px;
+        margin-bottom: 15px
+    }
+
+    .join-community p {
+        font-size: 20px;
+        margin-bottom: 20px
+    }
+
+    .join-section-img-1 {
+        width: 25%;
+        transform: translateX(-70%)
+    }
+
+    .join-section-img-2 {
+        width: 18%
+    }
+
+    .join-section-img-3 {
+        width: 22%
+    }
+
+    .roadmap-list {
+        display: flex;
+        flex-direction: column
+    }
+
+    .roadmap .roadmap-1::after {
+        right: -24px
+    }
+
+    .roadmap .roadmap-3::after {
+        top: -90px;
+        left: 18px
+    }
+
+    .roadmap .roadmap-4::after {
+        top: 20px;
+        left: 235px
+    }
+
+    .roadmap-list {
+        display: flex;
+        flex-direction: column
+    }
+
+    .roadmap .section-title {
+        text-align: left
+    }
+
+    .roadmap .section-subtitle {
+        text-align: left
+    }
+
+    .roadmap-list>li {
+        width: 100%;
+        padding-top: 20px;
+        margin-top: 20px;
+    }
+
+    .roadmap-list>li:first-child {
+        margin-top: 0;
+    }
+
+    .roadmap-list>li .roadmap-number {
+        padding: 0;
+        width: 100%;
+        text-align: left;
+        font-size: 2em;
+        font-weight: 700;
+        margin-bottom: 8px
+    }
+
+    .roadmap-list>li .roadmap-content {
+        padding: 0;
+        width: 100%;
+        text-align: left
+    }
+
+    .roadmap-list>li .roadmap-content h3 {
+        font-size: 1.2em;
+        margin-bottom: 5px
+    }
+
+    .roadmap-list>li .roadmap-content ul li {
+        font-size: 1em
+    }
+
+    .roadmap-list>li:before {
+        display: none
+    }
+
+    .roadmap-list>li:after {
+        top: -5px
+    }
+
+    .roadmap-list .roadmap-content .roadmap-images {
+        margin-top: 20px
+    }
+
+    .roadmap-content .roadmap-images {
+        margin-top: 20px;
+        gap: 12px
+    }
+
+    .roadmap-list>li:nth-child(even) {
+        width: 100%;
+        padding-top: 10px
+    }
+
+    .roadmap-list>li:nth-child(even) .roadmap-content {
+        text-align: left
+    }
+
+    .roadmap-list>li:nth-child(even) .roadmap-content .roadmap-images {
+        flex-flow: row
+    }
+
+    .auction-section {
+        display: block;
+        padding: 60px 0;
+        margin-top: 60px
+    }
+
+    .auction-carousel.owl-carousel .owl-stage {
+        margin: 0
+    }
+
+    .auction-carousel .owl-item .auction-item {
+        width: 70vw
+    }
+
+    .auction-item .card-timer {
+        display: none
+    }
+
+    .auction-carousel {
+        margin-top: 0
+    }
+
+    .auction-carousel .owl-dots {
+        display: none
+    }
+
+    .awesome-creators .container,
+    .investors-partners .container,
+    .team-section .container {
+        max-width: inherit;
+        padding: 0
+    }
+
+    .awesome-creators .section-title,
+    .awesome-creators .section-subtitle {
+        padding: 0 24px
+    }
+
+    .awesome-creator .creator-name {
+        font-size: 1.3em
+    }
+
+    .awesome-creator .creator-eth {
+        font-size: 1em
+    }
+
+    .awesome-creators {
+        margin-top: 0
+    }
+
+    .creators-grid {
+        margin-top: 30px
+    }
+
+    .team-section {
+        padding-top: 40px
+    }
+
+    .about-pg .team-section {
+        padding-top: 80px
+    }
+
+    .about-pg .about-team .team-member {
+        margin-bottom: 30px;
+    }
+
+    .team-member-list {
+        display: block;
+        margin-top: 30px
+    }
+
+    .team-cont p {
+        padding: 0 24px
+    }
+
+    .faq-section::after {
+        display: none
+    }
+
+    .faq-section::before {
+        display: none
+    }
+
+    .faq-section {
+        padding-top: 50px;
+        padding-bottom: 0
+    }
+
+    .faq-section .section-title {
+        margin-top: 40px;
+        text-align: left
+    }
+
+    .faq-section .section-subtitle {
+        text-align: left
+    }
+
+    .faq-cont .faq-accordian {
+        margin-top: 30px
+    }
+
+    .faq-cont .faq-accordian .faq-accordian-item .accordian-title {
+        font-size: 1.25em
+    }
+
+    .faq-cont .faq-accordian .faq-accordian-item .accordian-content {
+        font-size: 1em
+    }
+
+    .faq-images .faq-float-img-1 {
+        width: 200px;
+        left: -10%
+    }
+
+    .faq-images .faq-float-img-3 {
+        width: 75px;
+        left: -13%
+    }
+
+    .faq-images .faq-float-img-4 {
+        width: 25px;
+        right: 0
+    }
+
+    footer {
+        padding-top: 250px;
+        padding-bottom: 65px;
+        margin-top: -150px
+    }
+
+    .footerinnerpage {
+        padding-top: 100px;
+        padding-bottom: 65px;
+        margin-top: -100px
+    }
+
+
+    .footer-links {
+        margin-bottom: 20px;
+        border-bottom: 1px solid #000
+    }
+
+    .footer-links h5 {
+        font-size: 25px;
+        position: relative;
+        margin-bottom: 20px
+    }
+
+    .footer-links h5:after {
+        content: "\f0da";
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        position: absolute;
+        right: 5px;
+        color: #f66;
+        font-size: 14px;
+        transform: translateY(-50%);
+        top: 50%;
+        transition: .5s
+    }
+
+    .footer-links h5.open:after {
+        transform: translateY(-50%) rotate(90deg)
+    }
+
+    .footer-links ul {
+        display: none
+    }
+
+    .footer-links ul li {
+        margin-bottom: 25px
+    }
+
+    .footer-links ul li a {
+        font-size: 20px
+    }
+
+    .footer-bottom {
+        border: none;
+        flex-direction: column;
+        align-items: flex-start
+    }
+
+    .footer-bottom .brand-logo img {
+        width: 100px;
+        margin-bottom: 10px
+    }
+
+    .footer-bottom .footer-social {
+        margin-left: 0;
+        margin-top: 15px
+    }
+
+    .roadmap-list li:nth-child(even) .roadmap-content ul li i {
+        margin-left: 0
+    }
+
+    .footer-bottom .footer-social a {
+        margin-right: 12px;
+        font-size: 20px;
+        margin-left: 0
+    }
+
+    .team-member-list:before {
+        bottom: 115px
+    }
+
+    .footer-cont,
+    .footer-bottom {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .page-banner {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .page-banner .page-heading {
+        padding-bottom: 0;
+    }
+
+    .about-nft {
+        margin-top: 75px;
+        min-height: 800px;
+    }
+
+    .features ul li {
+        font-size: 17px;
+    }
+
+    .about-nft button.more {
+        margin-top: 0;
+        margin: auto;
+    }
+
+    .about-nft-img .girl-img img {
+        left: -29%;
+        max-width: 445px;
+    }
+
+    .about-nft-img .ballon-img img {
+        left: 3%;
+        max-width: 85px;
+    }
+
+    .about-nft-img .hand-img img {
+        right: 3%;
+        max-width: 150px;
+    }
+
+    .about-team .team-member {
+        margin: auto;
+    }
+
+    .contact-section p {
+        margin-bottom: 36px;
+    }
+
+    .input-container input,
+    .input-container textarea {
+        min-height: 54px;
+    }
+
+    .form-container .btn {
+        margin-top: 36px;
+        max-width: 100%;
+    }
+
+    .contact-info-item {
+        margin-bottom: 48px;
+    }
+
+    /*blog-section*/
+
+    .blog-heading h2 {
+        text-align: left;
+    }
+
+    .blog-heading h2.section-title br {
+        display: none;
+    }
+
+    .blog-content {
+        text-align: left;
+        padding-right: 0;
+    }
+
+    .blog-pages {
+        padding-bottom: 35px;
+    }
+
+    .blog-comment-img img {
+        width: 100px;
+    }
+
+    .comment-para {
+        padding-left: 10px;
+        font-size: 0.75em;
+    }
+
+    .comment-para p {
+        margin-bottom: 5px;
+
+    }
+
+    /*modal-section*/
+    .modal-header .modal-title {
+        font-size: 2.0em;
+    }
+}
+
+@media screen and (max-width: 497px) {
+    body {
+        font-size: 18px
+    }
+
+    .awesome-creators .awesome-creator {
+        width: 65vw;
+        height: 65vw
+    }
+}
